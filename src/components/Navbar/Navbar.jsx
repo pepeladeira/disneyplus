@@ -20,36 +20,11 @@ const Navbar = () => {
       </Link>
       <ul className="navbar__list">
         <li className="navbar__buttonWrapper">
-          <Button className="navbar__button" startIcon={<HomeIcon />}>
-            Home
-          </Button>
-        </li>
-        <li className="navbar__buttonWrapper">
           <Link to="/search">
             <Button className="navbar__button" startIcon={<SearchIcon />}>
               Search
             </Button>
           </Link>
-        </li>
-        <li className="navbar__buttonWrapper">
-          <Button className="navbar__button" startIcon={<AddIcon />}>
-            Watchlist
-          </Button>
-        </li>
-        <li className="navbar__buttonWrapper">
-          <Button className="navbar__button" startIcon={<StarIcon />}>
-            Originals
-          </Button>
-        </li>
-        <li className="navbar__buttonWrapper">
-          <Button className="navbar__button" startIcon={<MovieIcon />}>
-            Movies
-          </Button>
-        </li>
-        <li className="navbar__buttonWrapper">
-          <Button className="navbar__button" startIcon={<TvIcon />}>
-            Series
-          </Button>
         </li>
       </ul>
     </nav>
